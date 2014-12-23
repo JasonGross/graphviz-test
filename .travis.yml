@@ -6,6 +6,7 @@ python:
 before_script:
  - sudo add-apt-repository -y ppa:gviz-adm/graphviz-dev
  - sudo apt-get update -q
+ - sudo apt-get install libgraphviz4
  - sudo apt-get install graphviz
 
 script: true
